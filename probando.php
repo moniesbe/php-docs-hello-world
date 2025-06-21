@@ -1,3 +1,4 @@
+<?php
 $host = getenv('DB_HOST');
 $db   = 'prueba';
 $user = getenv('DB_USER');
