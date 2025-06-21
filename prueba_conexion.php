@@ -22,9 +22,9 @@ try {
         PDO::ATTR_EMULATE_PREPARES   => false,
 
         // Asegurar la conexión TLS hacia Azure Database for MySQL
-        PDO::MYSQL_ATTR_SSL_CA        => '/etc/ssl/certs/BaltimoreCyberTrustRoot.crt.pem',
+       // PDO::MYSQL_ATTR_SSL_CA        => '/etc/ssl/certs/BaltimoreCyberTrustRoot.crt.pem',
         // Desactivamos la validación del certificado SSL
-        PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT => false,
+      //  PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT => false,
     ];
 
     // Crear la conexión PDO
