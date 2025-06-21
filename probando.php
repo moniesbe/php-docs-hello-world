@@ -1,5 +1,5 @@
 $host = getenv('DB_HOST');
-$db   = getenv('DB_NAME');
+$db   = 'prueba';
 $user = getenv('DB_USER');
 $pass = getenv('DB_PASSWORD');
 
